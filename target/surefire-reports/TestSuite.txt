@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 129.019 sec <<< FAILURE! - in TestSuite
+loginTestMultipleSet(com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet)  Time elapsed: 60.718 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet.loginTestMultipleSet(TC_LoginTest_Multiple_DataSet.java:115)
+
+loginTestMultipleSet(com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet)  Time elapsed: 0.581 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet.loginTestMultipleSet(TC_LoginTest_Multiple_DataSet.java:127)
+

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TalentRecruit">
+              <span class="suite-name border-failed">TalentRecruit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TalentRecruit">
+                    <span>D:\workspace\TalentRecruit\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TalentRecruit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TalentRecruit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TalentRecruit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TalentRecruit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TalentRecruit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TalentRecruit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TalentRecruit" class="hide-methods failed suite-TalentRecruit"> (hide)</a> <!-- hide-methods failed suite-TalentRecruit -->
+                      <a href="#" panel-name="suite-TalentRecruit" class="show-methods failed suite-TalentRecruit"> (show)</a> <!-- show-methods failed suite-TalentRecruit -->
+                    </span>
+                    <div class="method-list-content failed suite-TalentRecruit">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TalentRecruit" title="com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet" hash-for-method="loginTestMultipleSet(arunpartap05@gmail.com, Aps@0002)">loginTestMultipleSet(arunpartap05@gmail.com, Aps@0002)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TalentRecruit" title="com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet" hash-for-method="loginTestMultipleSet(f.mmm@coe.com, Aps@0002)">loginTestMultipleSet(f.mmm@coe.com, Aps@0002)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TalentRecruit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TalentRecruit" class="hide-methods passed suite-TalentRecruit"> (hide)</a> <!-- hide-methods passed suite-TalentRecruit -->
+                      <a href="#" panel-name="suite-TalentRecruit" class="show-methods passed suite-TalentRecruit"> (show)</a> <!-- show-methods passed suite-TalentRecruit -->
+                    </span>
+                    <div class="method-list-content passed suite-TalentRecruit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TalentRecruit" title="com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet" hash-for-method="loginTestMultipleSet(arunpartap05@gmail.com, Aps@0001)">loginTestMultipleSet(arunpartap05@gmail.com, Aps@0001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TalentRecruit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TalentRecruit" class="panel TalentRecruit">
+          <div class="suite-TalentRecruit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestMultipleSet(arunpartap05@gmail.com, Aps@0002)">
+                  </a> <!-- loginTestMultipleSet(arunpartap05@gmail.com, Aps@0002) -->
+                  <span class="method-name">loginTestMultipleSet</span>
+                  <span class="parameters">(arunpartap05@gmail.com, Aps@0002)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet.loginTestMultipleSet(TC_LoginTest_Multiple_DataSet.java:115)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestMultipleSet(f.mmm@coe.com, Aps@0002)">
+                  </a> <!-- loginTestMultipleSet(f.mmm@coe.com, Aps@0002) -->
+                  <span class="method-name">loginTestMultipleSet</span>
+                  <span class="parameters">(f.mmm@coe.com, Aps@0002)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet.loginTestMultipleSet(TC_LoginTest_Multiple_DataSet.java:127)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TalentRecruit-class-failed -->
+          <div class="suite-TalentRecruit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestMultipleSet(arunpartap05@gmail.com, Aps@0001)">
+                  </a> <!-- loginTestMultipleSet(arunpartap05@gmail.com, Aps@0001) -->
+                  <span class="method-name">loginTestMultipleSet</span>
+                  <span class="parameters">(arunpartap05@gmail.com, Aps@0001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TalentRecruit-class-passed -->
+        </div> <!-- panel TalentRecruit -->
+        <div panel-name="test-xml-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspace\TalentRecruit\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TalentRecruit&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.TalentRecruit.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TalentRecruit Application Testing&quot;&gt;
+    &lt;parameter name=&quot;browsersize&quot; value=&quot;large&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TalentRecruit Application Testing --&gt;
+&lt;/suite&gt; &lt;!-- TalentRecruit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TalentRecruit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TalentRecruit Application Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TalentRecruit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TalentRecruit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TalentRecruit');
+function tableData_TalentRecruit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTestMultipleSet')
+data.setCell(0, 2, 'com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet')
+data.setCell(0, 3, 61140);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTestMultipleSet')
+data.setCell(1, 2, 'com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet')
+data.setCell(1, 3, 60718);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTestMultipleSet')
+data.setCell(2, 2, 'com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet')
+data.setCell(2, 3, 581);
+window.suiteTableData['TalentRecruit']= { tableData: data, tableDiv: 'times-div-TalentRecruit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-TalentRecruit">
+              </div> <!-- times-div-TalentRecruit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TalentRecruit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TalentRecruit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge, large)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTestMultipleSet(arunpartap05@gmail.com, Aps@0001)</span>
+                <span class="method-start">4208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTestMultipleSet(arunpartap05@gmail.com, Aps@0002)</span>
+                <span class="method-start">65356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTestMultipleSet(f.mmm@coe.com, Aps@0002)</span>
+                <span class="method-start">126082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">126663 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

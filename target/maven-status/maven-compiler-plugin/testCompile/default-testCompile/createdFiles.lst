@@ -1,0 +1,10 @@
+com\TalentRecruit\pageObjects\PasswordPageTR.class
+com\TalentRecruit\testCases\TC_LoginTest_Multiple_DataSet.class
+com\TalentRecruit\testCases\BaseClass.class
+com\TalentRecruit\testCases\TC_LoginTest.class
+com\TalentRecruit\utilities\XlsUtility.class
+com\TalentRecruit\pageObjects\LoginPageTR.class
+com\TalentRecruit\testCases\BaseClass$browserSize.class
+com\TalentRecruit\utilities\ReadConfig.class
+com\TalentRecruit\utilities\Reporting.class
+com\TalentRecruit\pageObjects\DashboardPage_TR.class

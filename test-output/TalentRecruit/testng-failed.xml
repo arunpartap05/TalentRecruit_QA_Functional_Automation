@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TalentRecruit]">
+  <listeners>
+    <listener class-name="com.TalentRecruit.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="TalentRecruit Application Testing(failed)">
+    <parameter name="browsersize" value="large"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginTestMultipleSet" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.TalentRecruit.testCases.TC_LoginTest_Multiple_DataSet -->
+    </classes>
+  </test> <!-- TalentRecruit Application Testing(failed) -->
+</suite> <!-- Failed suite [TalentRecruit] -->
